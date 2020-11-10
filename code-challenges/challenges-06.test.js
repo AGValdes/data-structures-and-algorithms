@@ -72,9 +72,9 @@ let $ = createSnippetWithJQuery(`
 const templatingWithMustache = () => {
   // Solution code here...
   let newArray = [];
-  let $template = $('#template').html();
+  let template = $('#template').html();
   characters.forEach(item => {
-    let html = Mustache.render($template, item);
+    let html = Mustache.render(template, item);
     newArray.push(html);
   });
   return newArray;
