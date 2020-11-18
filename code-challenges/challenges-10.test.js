@@ -106,19 +106,19 @@ const divisibleByFiveTwoToThePower = (input) => {
   let bigArray = [];
   input.forEach(littleArray => {
     let littlerArray = [];
-    let littlestArray = littleArray.filter(number => {
-      if (typeof number === 'number' && number % 5 === 0) {
-        return true;
-      }
-    });
-    littlestArray.forEach(thing => {
-      littlerArray.push(Math.pow(2, thing));
-      return littlerArray;
-    });
-    bigArray.push(littlerArray);
-    return bigArray;
+    let littlestArray = little';[/Array.filter(number => {
+    if (typeof number === 'number' && number % 5 === 0) {
+      return true;
+    }
   });
+  littlestArray.forEach(thing => {
+    littlerArray.push(Math.pow(2, thing));
+    return littlerArray;
+  });
+  bigArray.push(littlerArray);
   return bigArray;
+});
+return bigArray;
 };
 
 /* ------------------------------------------------------------------------------------------------
