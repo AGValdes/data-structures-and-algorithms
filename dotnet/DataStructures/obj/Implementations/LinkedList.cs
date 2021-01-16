@@ -27,29 +27,36 @@ namespace DataStructures
 
     // METHODS
 
-    public void toString()
+    public string toString()
     {
+     
       Node current = Head;
+      string output = "";
       while (current != null)
       {
         Console.Write($"[{current.Value}] => ");
+        output += $"[{current.Value}] => ";
         current = current.Next;
+        
       }
 
       Console.WriteLine("NULL");
+      output += "NULL";
+
+      return output;
     }
 
-    public void PrintR(Node node)
+    public string RecursiveToString(Node node)
     {
       if (node == null)
       {
         Console.WriteLine("NULL");
-        return;
+        return "NULL";
       }
 
       Console.Write($"[{node.Value}] => ");
-
-      PrintR(node.Next);
+      RecursiveToString(node.Next);
+      return node.Value.ToString();
 
     }
 
@@ -67,15 +74,16 @@ namespace DataStructures
       //we need to traverse the linked list and compare each value to the argument
       //if the node value equals the argument, return true, otherwise continue tranversing until reaching null and return false
       Node current = myList.Head;
-      while(current != null)
+      while (current != null)
       {
         if (current.Value == value)
-        {
+        { 
           return true;
         }
         current = current.Next;
       }
-      return false;
+
+    return false;
 
     }
 

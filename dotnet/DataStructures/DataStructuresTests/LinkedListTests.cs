@@ -61,6 +61,7 @@ namespace DataStructureTests
 
 
     }
+    //This checks that we will get a false return when the given value does not exist in the linked list
     [Fact]
     public void Confirm_Include_Works_With_Value_That_Is_Not_In_List()
     {
@@ -79,6 +80,52 @@ namespace DataStructureTests
       Assert.False(result);
 
 
+    }
+    //This will test that multiple nodes can be inserted
+    [Fact]
+    public void Can_Multiple_Nodes_Be_Inserted()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(1);
+      testList.Insert(2);
+      testList.Insert(3);
+      testList.Insert(4);
+      Node current = testList.Head;
+      int counter = 0;
+      
+
+      while (current != null)
+      {
+        counter++;
+        current = current.Next;
+      }
+
+      Assert.Equal(4, counter);
+
+    }
+    //This tests if the toString method returns the collection of values in the list
+    [Fact]
+    public void Properly_Returns_Values()
+    {
+      LinkedList testList = new LinkedList(42);
+      testList.Insert(96);
+      testList.Insert(72);
+
+      string test = "[72] => [96] => [42] => NULL";
+
+      
+
+      Assert.Equal(test, testList.toString());
+      
+
+    }
+    //tests to see if we can make an empty linked list
+    [Fact]
+    public void Can_Make_Empty()
+    {
+      LinkedList testList = new LinkedList();
+
+      Assert.Null(testList.Head);
     }
   }
 }
