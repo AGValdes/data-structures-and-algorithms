@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataStructures\DataStructuresTests\DataStructuresTests.csproj" />
+    <ProjectReference Include="..\LinkedLists\LinkedLists.csproj" />
+  </ItemGroup>
+
 </Project>

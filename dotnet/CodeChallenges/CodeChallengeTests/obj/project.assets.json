@@ -1648,6 +1648,44 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "DataStructuresTests/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Implementations": "1.0.0",
+          "Microsoft.NET.Test.Sdk": "16.7.1",
+          "xunit": "2.4.1"
+        },
+        "compile": {
+          "bin/placeholder/DataStructuresTests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataStructuresTests.dll": {}
+        }
+      },
+      "Implementations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Implementations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Implementations.dll": {}
+        }
+      },
+      "LinkedLists/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Implementations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LinkedLists.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LinkedLists.dll": {}
+        }
       }
     }
   },
@@ -5611,10 +5649,27 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "DataStructuresTests/1.0.0": {
+      "type": "project",
+      "path": "../../DataStructures/DataStructuresTests/DataStructuresTests.csproj",
+      "msbuildProject": "../../DataStructures/DataStructuresTests/DataStructuresTests.csproj"
+    },
+    "Implementations/1.0.0": {
+      "type": "project",
+      "path": "../../DataStructures/obj/Implementations/Implementations.csproj",
+      "msbuildProject": "../../DataStructures/obj/Implementations/Implementations.csproj"
+    },
+    "LinkedLists/1.0.0": {
+      "type": "project",
+      "path": "../LinkedLists/LinkedLists.csproj",
+      "msbuildProject": "../LinkedLists/LinkedLists.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DataStructuresTests >= 1.0.0",
+      "LinkedLists >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "coverlet.collector >= 1.3.0",
       "xunit >= 2.4.1",
@@ -5647,7 +5702,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\LinkedLists\\LinkedLists.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\LinkedLists\\LinkedLists.csproj"
+            },
+            "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
