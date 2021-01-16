@@ -62,7 +62,7 @@ namespace DataStructures
       Head = node;
     }
 
-    public bool Includes(int value, LinkedList myList)
+    public static bool Includes(int value, LinkedList myList)
     {
       //we need to traverse the linked list and compare each value to the argument
       //if the node value equals the argument, return true, otherwise continue tranversing until reaching null and return false

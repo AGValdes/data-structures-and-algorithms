@@ -41,5 +41,44 @@ namespace DataStructureTests
       Assert.Equal(oldHead, testList.Head.Next);
 
     }
+    //this test checks if our include method finds the given value in a linked list
+    [Fact]
+    public void Confirm_Include_Works_With_Value_That_Is_In_List ()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(1);
+      testList.Insert(2);
+      testList.Insert(3);
+      testList.Insert(4);
+      testList.Insert(5);
+      testList.Insert(6);
+
+      int testValue = 4;
+
+      bool result = LinkedList.Includes(testValue, testList);
+
+      Assert.True(result);
+
+
+    }
+    [Fact]
+    public void Confirm_Include_Works_With_Value_That_Is_Not_In_List()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(1);
+      testList.Insert(2);
+      testList.Insert(3);
+      testList.Insert(4);
+      testList.Insert(5);
+      testList.Insert(6);
+
+      int testValue = 27;
+
+      bool result = LinkedList.Includes(testValue, testList);
+
+      Assert.False(result);
+
+
+    }
   }
 }
