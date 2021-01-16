@@ -3,7 +3,7 @@ using System;
 
 namespace DataStructures
 {
-  class Program
+  public class Program
   {
     static void Main(string[] args)
     {
@@ -15,8 +15,8 @@ namespace DataStructures
       myList.Insert(18);
       myList.Insert(22);
 
-      myList.Print();
-      myList.PrintR(myList.Head);
+      myList.toString();
+      myList.RecursiveToString(myList.Head);
     }
   }
 }
