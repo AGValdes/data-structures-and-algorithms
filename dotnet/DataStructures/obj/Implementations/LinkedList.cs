@@ -27,7 +27,7 @@ namespace DataStructures
 
     // METHODS
 
-    public void Print()
+    public void toString()
     {
       Node current = Head;
       while (current != null)
@@ -62,9 +62,21 @@ namespace DataStructures
       Head = node;
     }
 
-    public void Append(int value)
+    public bool Includes(int value, LinkedList myList)
     {
-      // Add a node to the end of the list
+      //we need to traverse the linked list and compare each value to the argument
+      //if the node value equals the argument, return true, otherwise continue tranversing until reaching null and return false
+      Node current = myList.Head;
+      while(current != null)
+      {
+        if (current.Value == value)
+        {
+          return true;
+        }
+        current = current.Next;
+      }
+      return false;
+
     }
 
   }
