@@ -15,3 +15,5 @@ This Code Challenge introduces how to create LinkedList Classes, how to traverse
 To traverse our LinkedLists we used both a while loop:Time: O(n) in our case, because it goes through the whole linked list everytime. Space: O(1) I think, becasue it doesn't return anything
 
 ## API
+Public Methods:
+toString, RecursiveToString, Includes, Insert
