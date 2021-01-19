@@ -55,7 +55,7 @@ Loop over the LL again, assigning each element to the value of each node
 
 Return the value of this array at the last index value – the given k. 
 To traverse our LinkedLists we used both a while loop:Time: O(n) in our case, because it goes through the whole linked list everytime. Space: O(1) I think, becasue it doesn't return anything
-![Whiteboard for code challenge 07](./challenge07.jpg)
+![Whiteboard for code challenge 07](./challenge07.png)
 
 ## API
 Public Methods:
