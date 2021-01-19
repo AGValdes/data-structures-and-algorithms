@@ -1,4 +1,4 @@
-# Singly Linked List
+# Code Challenge 05
 This Code Challenge introduces how to create LinkedList Classes, how to traverse them, and how to write unit tests for thier methods
 
 ## Challenge
@@ -17,3 +17,20 @@ To traverse our LinkedLists we used both a while loop:Time: O(n) in our case, be
 ## API
 Public Methods:
 toString, RecursiveToString, Includes, Insert
+
+# Code Challenge 06
+This Code Challenge introduces how to create LinkedList Classes, how to traverse them, and how to write unit tests for thier methods
+
+## Challenge
+Write the following methods for the Linked List class:
+
+- .append(value) which adds a new node with the given value to the end of the list
+- .insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+- .insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+
+## Approach & Efficiency
+To traverse our LinkedLists we used both a while loop:Time: O(n) in our case, because it goes through the whole linked list everytime. Space: O(1) I think, becasue it doesn't return anything
+
+## API
+Public Methods:
+toString, RecursiveToString, Includes, Insert, Append, InsertAfter, InsertBefore

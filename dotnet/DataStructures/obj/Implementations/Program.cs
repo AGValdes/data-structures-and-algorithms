@@ -15,8 +15,9 @@ namespace DataStructures
       myList.Insert(18);
       myList.Insert(22);
 
-      myList.toString();
-      myList.RecursiveToString(myList.Head);
+      //myList.toString();
+     // myList.RecursiveToString(myList.Head);
+      LinkedList.InsertBefore(myList, 4, 12);
     }
   }
 }
