@@ -149,9 +149,9 @@ namespace DataStructures
       }
     }
 
-    public int KthFromEnd (int k)
+    public static int KthFromEnd (LinkedList myList, int k)
     {
-      Node current = Head;
+      Node current = myList.Head;
       int newArrLength = 0;
       int selectedValue = 0;
       while (current != null)
@@ -166,8 +166,12 @@ namespace DataStructures
         return 0;
 
       }
+      else if (newArrLength == k)
+      {
+        return myList.Head.Value;
+      }
 
-      current = Head;
+      current = myList.Head;
 
       // get the (len-k+1)th node from the beginning , this will be the kth node from the end
       for (int i = 1; i < newArrLength - k + 1; i++)
@@ -182,4 +186,4 @@ namespace DataStructures
   }
 
   }
-}
+

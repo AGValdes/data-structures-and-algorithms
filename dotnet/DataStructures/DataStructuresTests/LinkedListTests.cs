@@ -119,7 +119,9 @@ namespace DataStructureTests
       
 
     }
-    //tests to see if we can make an empty linked list
+    /// <summary>
+    ///tests to see if we can make an empty linked list
+    /// </summary>
     [Fact]
     public void Can_Make_Empty()
     {
@@ -127,7 +129,11 @@ namespace DataStructureTests
 
       Assert.Null(testList.Head);
     }
-
+    /// <summary>
+    ///The below test checks that the Append method
+    ///makes a new node at the end of a linked list,
+    ///meaning it created a new tail
+    /// </summary>
     [Fact]
     public void Append_Makes_New_Node_At_End()
     {
@@ -142,7 +148,10 @@ namespace DataStructureTests
       Assert.Equal(5, testList.Head.Next.Next.Next.Next.Value);
 
     }
-
+    /// <summary>
+    ///the below test checks if the Append method can create
+    ///multiple nodes at the end of a Linked List
+    /// </summary>
     [Fact]
     public void Append_Makes_Multiple_New_Nodes_At_End()
     {
@@ -160,7 +169,11 @@ namespace DataStructureTests
       Assert.Equal(6, testList.Head.Next.Next.Next.Next.Next.Value);
 
     }
-
+    /// <summary>
+    ///the below test checks that the insertBefore method makes a new node
+    ///with a value of the second parameter before the node with the value of
+    ///the first parameter
+    /// </summary>
     [Fact]
     public void Insert_Before_Makes_New_Node_With_Given_Value_Before_Node_With_Given_Value()
     {
@@ -175,7 +188,11 @@ namespace DataStructureTests
       Assert.Equal(5, testList.Head.Next.Value);
 
     }
-
+    /// <summary>
+    /// the below test checks that the insertBefore method will
+    /// create a new head if it is instructed to put a new node before
+    /// the first item of the list
+    /// </summary>
     [Fact]
     public void Insert_Before_First_Node()
     {
@@ -191,7 +208,11 @@ namespace DataStructureTests
 
     }
 
-
+    /// <summary>
+    /// the below test checks if the insertAfter method inserts a new node
+    /// with the value of the 2nd parameter after the node with a value of
+    /// the second parameter
+    /// </summary>
     [Fact]
     public void Insert_After_Makes_New_Node_With_Given_Value_After_Node_With_Given_Value()
     {
@@ -206,6 +227,10 @@ namespace DataStructureTests
       Assert.Equal(5, testList.Head.Next.Next.Value);
 
     }
+    /// <summary>
+    ///The below test checks that the insertAfter method
+    ///creates a node at the end of the list, or creates a new tail
+    /// </summary>
     [Fact]
     public void Insert_After_Makes_New_Node_At_End()
     {
@@ -220,5 +245,99 @@ namespace DataStructureTests
       Assert.Equal(5, testList.Head.Next.Next.Next.Next.Value);
 
     }
+    /// <summary>
+    /// This test checks that kth from end function will return
+    /// 0 if k is greater than the length of the Linked List
+    /// </summary>
+    [Fact]
+
+    public void K_Is_Greater_Than_List_Length()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(5);
+      testList.Insert(4);
+      testList.Insert(3);
+      testList.Insert(2);
+      testList.Insert(1);
+
+      int result = LinkedList.KthFromEnd(testList, 6);
+
+      Assert.Equal(0, result);
+    }
+    /// <summary>
+    /// Test below choecks that kth from end method will return
+    /// the head if k is equal to the length of the list
+    /// </summary>
+    [Fact]
+
+    public void K_Is_Equal_To_List_Length()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(5);
+      testList.Insert(4);
+      testList.Insert(3);
+      testList.Insert(2);
+      testList.Insert(1);
+
+      int result = LinkedList.KthFromEnd(testList, 5);
+
+      Assert.Equal(1, result);
+    }
+    /// <summary>
+    /// Test below checks that given a negative number for k, it will return
+    /// the value of the node that distance from the front instead of the end
+    /// </summary>
+    [Fact]
+
+    public void K_Is_Negative()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(5);
+      testList.Insert(4);
+      testList.Insert(3);
+      testList.Insert(2);
+      testList.Insert(1);
+
+      int result = LinkedList.KthFromEnd(testList, -2);
+
+      Assert.Equal(2, result);
+    }
+    /// <summary>
+    ///The below test checks that the kthFromEnd method
+    ///will return the only node value if the list only has a length of 1
+    ///and k is 1
+    /// </summary>
+    [Fact]
+
+    public void List_Has_Length_Of_One()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(5);
+
+      int result = LinkedList.KthFromEnd(testList, 1);
+
+      Assert.Equal(5, result);
+    }
+    /// <summary>
+    ///the below test checks that kthFromEnd returns
+    ///the value of the node that is a distance of k
+    ///away from the end of the list
+    /// </summary>
+    [Fact]
+
+    public void K_Is_In_The_Middle_Of_The_List_AKA_Happy_Path()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(5);
+      testList.Insert(4);
+      testList.Insert(3);
+      testList.Insert(2);
+      testList.Insert(1);
+
+      int result = LinkedList.KthFromEnd(testList, 3);
+
+      Assert.Equal(2, result);
+    }
+
   }
 }
