@@ -127,5 +127,98 @@ namespace DataStructureTests
 
       Assert.Null(testList.Head);
     }
+
+    [Fact]
+    public void Append_Makes_New_Node_At_End()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(1);
+      testList.Insert(2);
+      testList.Insert(3);
+      testList.Insert(4);
+
+      LinkedList.Append(testList, 5);
+
+      Assert.Equal(5, testList.Head.Next.Next.Next.Next.Value);
+
+    }
+
+    [Fact]
+    public void Append_Makes_Multiple_New_Nodes_At_End()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(1);
+      testList.Insert(2);
+      testList.Insert(3);
+      testList.Insert(4);
+
+      LinkedList.Append(testList, 5);
+      LinkedList.Append(testList, 6);
+
+
+      Assert.Equal(5, testList.Head.Next.Next.Next.Next.Value);
+      Assert.Equal(6, testList.Head.Next.Next.Next.Next.Next.Value);
+
+    }
+
+    [Fact]
+    public void Insert_Before_Makes_New_Node_With_Given_Value_Before_Node_With_Given_Value()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(1);
+      testList.Insert(2);
+      testList.Insert(3);
+      testList.Insert(4);
+
+      LinkedList.InsertBefore(testList, 3, 5);
+
+      Assert.Equal(5, testList.Head.Next.Value);
+
+    }
+
+    [Fact]
+    public void Insert_Before_First_Node()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(1);
+      testList.Insert(2);
+      testList.Insert(3);
+      testList.Insert(4);
+
+      LinkedList.InsertBefore(testList, 4, 5);
+
+      Assert.Equal(5, testList.Head.Value);
+
+    }
+
+
+    [Fact]
+    public void Insert_After_Makes_New_Node_With_Given_Value_After_Node_With_Given_Value()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(1);
+      testList.Insert(2);
+      testList.Insert(3);
+      testList.Insert(4);
+
+      LinkedList.InsertAfter(testList, 3, 5);
+
+      Assert.Equal(5, testList.Head.Next.Next.Value);
+
+    }
+    [Fact]
+    public void Insert_After_Makes_New_Node_At_End()
+    {
+      LinkedList testList = new LinkedList();
+      testList.Insert(1);
+      testList.Insert(2);
+      testList.Insert(3);
+      testList.Insert(4);
+
+      LinkedList.InsertAfter(testList, 1, 5);
+
+      Assert.Equal(5, testList.Head.Next.Next.Next.Next.Value);
+
+    }
   }
 }
