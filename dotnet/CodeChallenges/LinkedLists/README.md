@@ -35,3 +35,28 @@ To traverse our LinkedLists we used both a while loop:Time: O(n) in our case, be
 ## API
 Public Methods:
 toString, RecursiveToString, Includes, Insert, Append, InsertAfter, InsertBefore
+
+# Code Challenge 07
+This Code Challenge introduces how to create LinkedList Classes, how to traverse them, and how to write unit tests for thier methods
+
+## Challenge
+Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. 
+
+## Approach & Efficiency
+Set a current node that is the head of the list 
+
+Set a counter variable  
+
+Iterate through the LL incrementing the counter each time to find the length of the LL 
+
+Use this value to make an array of that length. 
+
+Loop over the LL again, assigning each element to the value of each node 
+
+Return the value of this array at the last index value – the given k. 
+To traverse our LinkedLists we used both a while loop:Time: O(n) in our case, because it goes through the whole linked list everytime. Space: O(1) I think, becasue it doesn't return anything
+![Whiteboard for code challenge 07](./challenge07.jpg)
+
+## API
+Public Methods:
+toString, RecursiveToString, Includes, Insert, Append, InsertAfter, InsertBefore, KthFromEnd
