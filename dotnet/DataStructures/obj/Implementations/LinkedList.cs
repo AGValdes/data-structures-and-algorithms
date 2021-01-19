@@ -149,5 +149,37 @@ namespace DataStructures
       }
     }
 
+    public int KthFromEnd (int k)
+    {
+      Node current = Head;
+      int newArrLength = 0;
+      int selectedValue = 0;
+      while (current != null)
+      {
+        current = current.Next;
+        newArrLength++;
+      }
+
+      // check if value of n is not more than length of the linked list 
+      if (newArrLength < k)
+      {
+        return 0;
+
+      }
+
+      current = Head;
+
+      // get the (len-k+1)th node from the beginning , this will be the kth node from the end
+      for (int i = 1; i < newArrLength - k + 1; i++)
+      {
+        current = current.Next;
+        selectedValue += current.Value;
+        return selectedValue;
+
+      }
+      return selectedValue;
+    }
+  }
+
   }
 }
