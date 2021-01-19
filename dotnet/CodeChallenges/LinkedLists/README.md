@@ -30,7 +30,7 @@ Write the following methods for the Linked List class:
 
 ## Approach & Efficiency
 To traverse our LinkedLists we used both a while loop:Time: O(n) in our case, because it goes through the whole linked list everytime. Space: O(1) I think, becasue it doesn't return anything
-![Whiteboard for code challenge 06](../06whiteboard.jpg)
+![Whiteboard for code challenge 06](./06whiteboard.jpg)
 
 ## API
 Public Methods:
