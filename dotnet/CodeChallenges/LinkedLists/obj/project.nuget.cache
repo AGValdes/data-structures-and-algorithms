@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ArCctdeSV1cPo0322uHzJCspwJXFVtnieywoOd/3TCdmnm6Uxcf+iiY8U7wrlDcWurtLSV/N6inDT1R34CCm9w==",
+  "dgSpecHash": "sI3B/8Oa6WLlFhaVDES8Mz8tZWpt1ED/a5Ymcrnkzx2W8SQcbM5wJRe6+CDHAJMNOCcEMOOvqMnGAW4AuT0zaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\LinkedLists\\LinkedLists.csproj",
+  "projectFilePath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\LinkedLists\\LinkedLists.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

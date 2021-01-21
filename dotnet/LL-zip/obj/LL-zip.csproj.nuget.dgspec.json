@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj": {}
+    "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj": {
+    "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj",
+        "projectUniqueName": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj",
         "projectName": "LL-zip",
-        "projectPath": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj",
+        "projectPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj",
         "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\LL-zip\\obj\\",
+        "outputPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",
