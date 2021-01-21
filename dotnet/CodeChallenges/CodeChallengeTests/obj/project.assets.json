@@ -5682,11 +5682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\CodeChallengeTests\\CodeChallengeTests.csproj",
+      "projectUniqueName": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\CodeChallengeTests\\CodeChallengeTests.csproj",
       "projectName": "CodeChallengeTests",
-      "projectPath": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\CodeChallengeTests\\CodeChallengeTests.csproj",
+      "projectPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\CodeChallengeTests\\CodeChallengeTests.csproj",
       "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\CodeChallengeTests\\obj\\",
+      "outputPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\CodeChallengeTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5703,11 +5703,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\LinkedLists\\LinkedLists.csproj": {
-              "projectPath": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\LinkedLists\\LinkedLists.csproj"
+            "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\LinkedLists\\LinkedLists.csproj": {
+              "projectPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\LinkedLists\\LinkedLists.csproj"
             },
-            "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj": {
-              "projectPath": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj"
+            "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj": {
+              "projectPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj"
             }
           }
         }
