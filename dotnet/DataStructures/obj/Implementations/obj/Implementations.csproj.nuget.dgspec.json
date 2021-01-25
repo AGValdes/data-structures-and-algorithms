@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {}
+    "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {
+    "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj",
+        "projectUniqueName": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj",
         "projectName": "Implementations",
-        "projectPath": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj",
+        "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj",
         "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\obj\\",
+        "outputPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jz78s96Qj4d9zz0m+w4/kHi9dRpni4bQmUy7BZUOSmqxbuGaBRmArW/N4PtW+3eFqZCsZt1rHyRh+p1SGdPsvw==",
+  "dgSpecHash": "Cd+SJiWq+w3tKT4Ssle88kFvv6mEoVSHU6ORFQ4jIyTaz+6MIsUwDB1mE5pWvCHpBTBlk1t7Kbw5kCNwlWzT0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\valde\\source\\repos\\401\\Data-Structures-And-Algorithms\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj",
+  "projectFilePath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

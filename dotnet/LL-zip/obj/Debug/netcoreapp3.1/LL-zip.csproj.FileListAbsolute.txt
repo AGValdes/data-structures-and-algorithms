@@ -1,0 +1,13 @@
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\bin\Debug\netcoreapp3.1\LL-zip.exe
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\bin\Debug\netcoreapp3.1\LL-zip.deps.json
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\bin\Debug\netcoreapp3.1\LL-zip.runtimeconfig.json
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\bin\Debug\netcoreapp3.1\LL-zip.runtimeconfig.dev.json
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\bin\Debug\netcoreapp3.1\LL-zip.dll
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\bin\Debug\netcoreapp3.1\LL-zip.pdb
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\obj\Debug\netcoreapp3.1\LL-zip.csprojAssemblyReference.cache
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\obj\Debug\netcoreapp3.1\LL-zip.AssemblyInfoInputs.cache
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\obj\Debug\netcoreapp3.1\LL-zip.AssemblyInfo.cs
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\obj\Debug\netcoreapp3.1\LL-zip.csproj.CoreCompileInputs.cache
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\obj\Debug\netcoreapp3.1\LL-zip.dll
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\obj\Debug\netcoreapp3.1\LL-zip.pdb
+C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\LL-zip\obj\Debug\netcoreapp3.1\LL-zip.genruntimeconfig.cache
