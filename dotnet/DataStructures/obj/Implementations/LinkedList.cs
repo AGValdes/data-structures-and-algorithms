@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DataStructures
 {
-  public class LinkedList<T>
+  public class LinkedList
   {
-    public Node<T> Head { get; set; }
+    public Node Head { get; set; }
 
     /// <summary>
     /// Plain, Empty Linked List
@@ -19,9 +19,9 @@ namespace DataStructures
     /// Usage: LinkedList myList = new LinkedList(4);
     /// </summary>
     /// <param name="value"></param>
-    public LinkedList(T value)
+    public LinkedList(int value)
     {
-      Node<T> node = new Node<T>(value);
+      Node node = new Node(value);
       Head = node;
     }
 
@@ -30,7 +30,7 @@ namespace DataStructures
     public string toString()
     {
      
-      Node<T> current = Head;
+      Node current = Head;
       string output = "";
       while (current != null)
       {
@@ -46,7 +46,7 @@ namespace DataStructures
       return output;
     }
 
-    public string RecursiveToString(Node<T> node)
+    public string RecursiveToString(Node node)
     {
       if (node == null)
       {
@@ -60,23 +60,23 @@ namespace DataStructures
 
     }
 
-    public void Insert(T value)
+    public void Insert(int value)
     {
       // If we have a head ... do this
       // If not, make the node, and make it the head.
-      Node<T> node = new Node<T>(value);
+      Node node = new Node(value);
       node.Next = Head; // might be unnecessary if we don't have a head
       Head = node;
     }
 
-    public static bool Includes(T value, LinkedList<T> myList)
+    public static bool Includes(int value, LinkedList myList)
     {
       //we need to traverse the linked list and compare each value to the argument
       //if the node value equals the argument, return true, otherwise continue tranversing until reaching null and return false
-      Node<T> current = myList.Head;
+      Node current = myList.Head;
       while (current != null)
       {
-        if (current.Value.Equals(value))
+        if (current.Value == value)
         { 
           return true;
         }
@@ -87,11 +87,11 @@ namespace DataStructures
 
     }
 
-    public static void Append(LinkedList<T> myList, T newValue)
+    public static void Append(LinkedList myList, int newValue)
     {
-      Node<T> current = myList.Head;
+      Node current = myList.Head;
       
-      Node<T> newNode = new Node<T>(newValue);
+      Node newNode = new Node(newValue);
      while (current != null)
       {
 
@@ -107,11 +107,11 @@ namespace DataStructures
      
       
     }
-    public static void InsertBefore(LinkedList<T> myList, T value, T newValue)
+    public static void InsertBefore(LinkedList myList, int value, int newValue)
     {
-      Node<T> current = myList.Head;
-      Node<T> newNode = new Node<T>(newValue);
-      if (value.Equals(myList.Head.Value))
+      Node current = myList.Head;
+      Node newNode = new Node(newValue);
+      if (value == myList.Head.Value)
       {
         myList.Insert(newNode.Value);
       }
@@ -120,7 +120,7 @@ namespace DataStructures
 
         while (current != null)
           {
-             if (current.Next.Value.Equals(value))
+             if (current.Next.Value == value)
               {
                 newNode.Next = current.Next;
                  current.Next = newNode;
@@ -132,13 +132,13 @@ namespace DataStructures
      
     }
 
-    public static void InsertAfter(LinkedList<T> myList, T value, T newValue)
+    public static void InsertAfter(LinkedList myList, int value, int newValue)
     {
-      Node<T> current = myList.Head;
-      Node<T> newNode = new Node<T>(newValue);
+      Node current = myList.Head;
+      Node newNode = new Node(newValue);
       while (current != null)
       {
-        if (current.Value.Equals(value))
+        if (current.Value == value)
         {
           newNode.Next = current.Next;
           current.Next = newNode;
@@ -149,11 +149,11 @@ namespace DataStructures
       }
     }
 
-    public static Node<T> KthFromEnd (LinkedList<T> myList, int k)
+    public static int KthFromEnd (LinkedList myList, int k)
     {
-      Node<T> current = myList.Head;
+      Node current = myList.Head;
       int newArrLength = 0;
-      Node<T> selectedValue = null;
+      int selectedValue = 0;
       while (current != null)
       {
         current = current.Next;
@@ -163,12 +163,12 @@ namespace DataStructures
       // check if value of n is not more than length of the linked list 
       if (newArrLength < k)
       {
-        return null;
+        return 0;
 
       }
-      else if (newArrLength.Equals(k)) 
+      else if (newArrLength == k)
       {
-        return myList.Head;
+        return myList.Head.Value;
       }
 
       current = myList.Head;
@@ -177,7 +177,7 @@ namespace DataStructures
       for (int i = 1; i < newArrLength - k + 1; i++)
       {
         current = current.Next;
-        selectedValue = current;
+        selectedValue += current.Value;
         return selectedValue;
 
       }

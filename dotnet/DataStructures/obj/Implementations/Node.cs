@@ -5,17 +5,17 @@ using System.Text;
 
 namespace DataStructures
 {
-  public class Node<T>
+  public class Node
   {
-    public T Value { get; set; }
-    public Node<T> Next { get; set; }
+    public int Value { get; set; }
+    public Node Next { get; set; }
 
     /// <summary>
     /// Constructor for a node
     /// Usage: Node node = new Node(7);
     /// </summary>
     /// <param name="value"></param>
-    public Node(T value)
+    public Node(int value)
     {
       Value = value;
     }

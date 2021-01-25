@@ -14,7 +14,7 @@ namespace LinkedLists
 
     public static bool LinkListActivity()
     {
-      LinkedList<int> myList = new LinkedList<int>(5);
+      LinkedList myList = new LinkedList(5);
       return true;
     }
   }
