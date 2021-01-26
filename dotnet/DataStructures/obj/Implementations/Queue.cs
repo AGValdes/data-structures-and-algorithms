@@ -43,11 +43,11 @@ namespace DataStructures
       }
     }
 
-    public T Peek()
+    public Node<T Peek()
     {
       try
       {
-        return Front.Value;
+        return Front;
       }
       catch (NullReferenceException nre)
       {
