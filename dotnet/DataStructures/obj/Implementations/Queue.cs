@@ -43,7 +43,7 @@ namespace DataStructures
       }
     }
 
-    public Node<T Peek()
+    public Node<T> Peek()
     {
       try
       {
