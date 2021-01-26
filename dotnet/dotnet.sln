@@ -17,7 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeChallenges", "CodeChall
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LL-zip", "LL-zip\LL-zip.csproj", "{4E6F9C0C-913D-49E3-931A-D1EAE846C2A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueWithStacks", "QueueWithStacks\QueueWithStacks.csproj", "{B978C245-1E50-4156-80FD-B8504B61CCA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueWithStacks", "QueueWithStacks\QueueWithStacks.csproj", "{B978C245-1E50-4156-80FD-B8504B61CCA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FifoAnimalShelter", "FifoAnimalShelter\FifoAnimalShelter.csproj", "{076E75D5-9C38-43A8-B813-F3C80A250893}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{B978C245-1E50-4156-80FD-B8504B61CCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B978C245-1E50-4156-80FD-B8504B61CCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B978C245-1E50-4156-80FD-B8504B61CCA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076E75D5-9C38-43A8-B813-F3C80A250893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076E75D5-9C38-43A8-B813-F3C80A250893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076E75D5-9C38-43A8-B813-F3C80A250893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076E75D5-9C38-43A8-B813-F3C80A250893}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{65BE838C-867F-4426-A689-343F4107C105} = {8DF81E38-D9C8-46C0-809F-2C4209BB6429}
 		{4E6F9C0C-913D-49E3-931A-D1EAE846C2A0} = {8DF81E38-D9C8-46C0-809F-2C4209BB6429}
 		{B978C245-1E50-4156-80FD-B8504B61CCA0} = {8DF81E38-D9C8-46C0-809F-2C4209BB6429}
+		{076E75D5-9C38-43A8-B813-F3C80A250893} = {8DF81E38-D9C8-46C0-809F-2C4209BB6429}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23A746C8-A424-4250-BE7A-9C3F81AA80BE}
