@@ -7,7 +7,8 @@ enqueue(animal): adds animal to the shelter. animal can be either a dog or a cat
 dequeue(pref): returns either a dog or a cat. If pref is not "dog" or "cat" then return null.
 
 ## Approach & Efficiency
-
+I ended up not using the temporary shelter to preserve the order like I intended, but used the rest of the algorithm the same way other than that.
+![Challenge 12 Whiteboard](./challenge12.png)
 ## API
 Public Methods:
 Enqueue(), Dequeue()
