@@ -6,7 +6,7 @@ namespace FifoAnimalShelter
 {
   public class Dog : Animal
   {
-    public override string Species { get; set; } = "Dog";
+    public override string Species { get; set; } = "dog";
     public override Animal Next { get; set; }
 
   }

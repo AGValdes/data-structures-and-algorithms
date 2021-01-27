@@ -9,6 +9,7 @@
       "CodeChallengeTests/1.0.0": {
         "dependencies": {
           "DataStructuresTests": "1.0.0",
+          "FifoAnimalShelter": "1.0.0",
           "LinkedLists": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.7.1",
           "coverlet.collector": "1.3.0",
@@ -1099,6 +1100,11 @@
           "DataStructuresTests.dll": {}
         }
       },
+      "FifoAnimalShelter/1.0.0": {
+        "runtime": {
+          "FifoAnimalShelter.dll": {}
+        }
+      },
       "Implementations/1.0.0": {
         "runtime": {
           "Implementations.dll": {}
@@ -1758,6 +1764,11 @@
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
     "DataStructuresTests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FifoAnimalShelter/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -6,10 +6,10 @@ namespace FifoAnimalShelter
 {
 public class AnimalShelter
   {
-    public static Animal Front {get; set;}
-    public static Animal Rear { get; set; }
+    public Animal Front {get; set;}
+    public Animal Rear { get; set; }
 
-    public static void Enqueue(Animal animal)
+    public void Enqueue(Animal animal)
     {
       if (Front == null)
       {
@@ -20,30 +20,27 @@ public class AnimalShelter
       
     }
 
-    public static Animal Dequeue(string pref)
+    public Animal Dequeue(string pref)
     {
       Animal upForAdoption = default(Animal);
-      if (pref.ToLower() != "dog" || pref.ToLower() != "dat")
+      if (pref != "dog" && pref != "cat")
       {
         return null;
       }
-      Queue<Animal> holdingQ = new Queue<Animal>();
-      Animal current = Front;
-      while(current.Next != null)
+     
+     
+      while(Front != null)
       {
-        current.Next = null;
-        if (current.Species != pref)
+        
+     
+        if (Front.Species == pref)
         {
-          current.Next = null;
-          holdingQ.Enqueue(current);
-          continue;
+          upForAdoption = Front;
         }
-        if (current.Species == pref)
-        {
-          upForAdoption = current;
-        }
+        
+        Front = Front.Next;
 
-        current = current.Next;
+
       }
       return upForAdoption;
     }

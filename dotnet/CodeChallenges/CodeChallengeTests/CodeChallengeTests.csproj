@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\DataStructures\DataStructuresTests\DataStructuresTests.csproj" />
+    <ProjectReference Include="..\..\FifoAnimalShelter\FifoAnimalShelter.csproj" />
     <ProjectReference Include="..\LinkedLists\LinkedLists.csproj" />
   </ItemGroup>
 

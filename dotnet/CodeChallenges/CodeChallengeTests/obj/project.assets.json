@@ -1664,6 +1664,16 @@
           "bin/placeholder/DataStructuresTests.dll": {}
         }
       },
+      "FifoAnimalShelter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/FifoAnimalShelter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FifoAnimalShelter.dll": {}
+        }
+      },
       "Implementations/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5655,6 +5665,11 @@
       "path": "../../DataStructures/DataStructuresTests/DataStructuresTests.csproj",
       "msbuildProject": "../../DataStructures/DataStructuresTests/DataStructuresTests.csproj"
     },
+    "FifoAnimalShelter/1.0.0": {
+      "type": "project",
+      "path": "../../FifoAnimalShelter/FifoAnimalShelter.csproj",
+      "msbuildProject": "../../FifoAnimalShelter/FifoAnimalShelter.csproj"
+    },
     "Implementations/1.0.0": {
       "type": "project",
       "path": "../../DataStructures/obj/Implementations/Implementations.csproj",
@@ -5669,6 +5684,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DataStructuresTests >= 1.0.0",
+      "FifoAnimalShelter >= 1.0.0",
       "LinkedLists >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "coverlet.collector >= 1.3.0",
@@ -5708,6 +5724,9 @@
             },
             "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj": {
               "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj"
+            },
+            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FifoAnimalShelter\\FifoAnimalShelter.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FifoAnimalShelter\\FifoAnimalShelter.csproj"
             }
           }
         }
