@@ -16,25 +16,20 @@ namespace DataStructures
       Node<T> node = new Node<T>(value);
       if (Front == null)
       {
-        node = Front;
+        Front = node; Rear = node;
       }
-      Node<T> currentCounter = Front;
-      while (currentCounter.Next != null)
-      {
-        if (currentCounter.Next == null)
-        {
-          currentCounter.Next = node;
-        }
-        currentCounter = currentCounter.Next;
-      }
-      
+      Rear.Next = node;
+      Rear = node;
     }
 
     public T Dequeue()
     {
       try
       {
+        Node<T> tempNode = Front.Next;
+
       Front.Next = null;
+        Front = tempNode;
       return Front.Value;
       }
       catch (NullReferenceException nre)
@@ -43,7 +38,7 @@ namespace DataStructures
       }
     }
 
-    public Node<T Peek()
+    public Node<T> Peek()
     {
       try
       {
