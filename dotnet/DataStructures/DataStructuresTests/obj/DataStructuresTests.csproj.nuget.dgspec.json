@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj": {}
+    "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj": {
+    "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj",
+        "projectUniqueName": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj",
         "projectName": "DataStructuresTests",
-        "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj",
+        "projectPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj",
         "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\obj\\",
+        "outputPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {
-                "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj"
+              "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {
+                "projectPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {
+    "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj",
+        "projectUniqueName": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj",
         "projectName": "Implementations",
-        "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj",
+        "projectPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj",
         "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\obj\\",
+        "outputPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",
