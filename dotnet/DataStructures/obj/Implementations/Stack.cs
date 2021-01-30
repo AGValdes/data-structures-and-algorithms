@@ -36,15 +36,9 @@ namespace DataStructures
 
     public Node<T> Peek()
     {
-      try
-      {
+   
       return top;
 
-      }
-      catch
-      {
-        return null;
-      }
     }
   }
 }

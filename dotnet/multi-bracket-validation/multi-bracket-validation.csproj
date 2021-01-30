@@ -6,4 +6,8 @@
     <RootNamespace>multi_bracket_validation</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataStructures\obj\Implementations\Implementations.csproj" />
+  </ItemGroup>
+
 </Project>

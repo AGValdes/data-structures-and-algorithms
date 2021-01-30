@@ -1696,6 +1696,19 @@
         "runtime": {
           "bin/placeholder/LinkedLists.dll": {}
         }
+      },
+      "multi-bracket-validation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Implementations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/multi-bracket-validation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/multi-bracket-validation.dll": {}
+        }
       }
     }
   },
@@ -5679,6 +5692,11 @@
       "type": "project",
       "path": "../LinkedLists/LinkedLists.csproj",
       "msbuildProject": "../LinkedLists/LinkedLists.csproj"
+    },
+    "multi-bracket-validation/1.0.0": {
+      "type": "project",
+      "path": "../../multi-bracket-validation/multi-bracket-validation.csproj",
+      "msbuildProject": "../../multi-bracket-validation/multi-bracket-validation.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5688,6 +5706,7 @@
       "LinkedLists >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "coverlet.collector >= 1.3.0",
+      "multi-bracket-validation >= 1.0.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
@@ -5727,6 +5746,9 @@
             },
             "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FifoAnimalShelter\\FifoAnimalShelter.csproj": {
               "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FifoAnimalShelter\\FifoAnimalShelter.csproj"
+            },
+            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\multi-bracket-validation\\multi-bracket-validation.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\multi-bracket-validation\\multi-bracket-validation.csproj"
             }
           }
         }
