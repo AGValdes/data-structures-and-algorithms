@@ -40,19 +40,18 @@ namespace DataStructures
 
     public Node<T> Peek()
     {
-      try
+      if(Front == null)
       {
+        throw new NullReferenceException("There was nothing in queue!");
+      }
         return Front;
-      }
-      catch (NullReferenceException nre)
-      {
-         throw nre;
-      }
+      
+ 
     }
 
     public bool IsEmpty()
     {
-      return Front != null;
+      return Front == null;
     }
 
 
