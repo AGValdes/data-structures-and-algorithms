@@ -84,17 +84,6 @@ namespace DataStructuresTests
 
 
     }
-    [Fact]
-
-    public void Can_Enqueue()
-    {
-      Queue<int> testQueue = new Queue<int>();
-
-      testQueue.Enqueue(1);
-      Node<int> testNode = new Node<int>(1);
-
-      Assert.Equal(testNode, testQueue.Peek());
-    }
 
   }
 
