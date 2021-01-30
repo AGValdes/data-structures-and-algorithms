@@ -211,3 +211,6 @@ C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges
 C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\FifoAnimalShelter.exe
 C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\FifoAnimalShelter.dll
 C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\FifoAnimalShelter.pdb
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\multi-bracket-validation.exe
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\multi-bracket-validation.dll
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\multi-bracket-validation.pdb
