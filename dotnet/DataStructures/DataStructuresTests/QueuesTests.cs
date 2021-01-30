@@ -16,7 +16,7 @@ namespace DataStructuresTests
       testQueue.Enqueue(1);
       Node<int> testNode = new Node<int>(1);
 
-      Assert.Equal(testNode, testQueue.Peek());
+      Assert.Equal(1, testQueue.Front.Value);
     }
 
   }

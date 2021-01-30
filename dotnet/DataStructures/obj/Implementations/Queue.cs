@@ -7,8 +7,8 @@ namespace DataStructures
 {
   public class Queue<T>
   {
-    public static Node<T> Front { get; set; }
-    public static Node<T> Rear { get; set; }
+    public  Node<T> Front { get; set; }
+    public  Node<T> Rear { get; set; }
 
  
     public void Enqueue(T value)
@@ -22,15 +22,15 @@ namespace DataStructures
       Rear = node;
     }
 
-    public T Dequeue()
+    public void Dequeue()
     {
       try
       {
         Node<T> tempNode = Front.Next;
 
-      Front.Next = null;
-        Front = tempNode;
-      return Front.Value;
+      Front = tempNode;
+    
+
       }
       catch (NullReferenceException nre)
       {
