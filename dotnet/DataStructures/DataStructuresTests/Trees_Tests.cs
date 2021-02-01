@@ -77,5 +77,28 @@ namespace DataStructuresTests
       Assert.Equal(expected, testTree.PostOrder(testTree.Root, input));
     }
 
+    [Fact]
+
+    public void Test_Maximum_Value_Is_Returned_With_Single_Node_Tree()
+    {
+      BinarySearchTree<int> testTree = new BinarySearchTree<int>();
+      testTree.Add(testTree.Root, 1);
+      int expected = 1;
+      Assert.Equal(expected, testTree.FindMaximumValue(testTree.Root));
+    }
+
+    [Fact]
+    public void Test_Maximum_Value_Is_Returned_With_Multi_Node_Tree()
+    {
+      BinarySearchTree<int> testTree = new BinarySearchTree<int>();
+      testTree.Add(testTree.Root, 1);
+      testTree.Add(testTree.Root, 2);
+      testTree.Add(testTree.Root, 3);
+      testTree.Add(testTree.Root, 4);
+      testTree.Add(testTree.Root, 5);
+      testTree.Add(testTree.Root, 6);
+      int expected = 6;
+      Assert.Equal(expected, testTree.FindMaximumValue(testTree.Root));
+    }
   }
 }
