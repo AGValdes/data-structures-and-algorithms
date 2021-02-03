@@ -1,4 +1,4 @@
-# Trees
+# Trees Challenge 15
 Initial implementation of the Binary and Binary Search Tree classes, and their own Node class with appropriate right and left pointer properties.
 
 ## Challenge
@@ -10,3 +10,14 @@ The time efficiency for tranversing out trees is going to the O(n), because we w
 because we cut our search in half everytime it calls itself. Space will be O(1) because we are just returning true or false.
 ## API
 Public Methods: Add(), Contains(), PreOrder(), InOrder(), PostOrder()
+
+
+# Trees Challenge 17
+Write a mehtod that traverses a tree using breadth-first traversal.
+## Challenge
+Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach, and return a list of the values in the tree in the order they were encountered.
+
+## Approach & Efficiency
+!(WhiteBoard)[./challenge17/png]
+## API
+Public Methods: BreadthFirstTraversal()
