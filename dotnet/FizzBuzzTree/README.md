@@ -8,7 +8,7 @@ If the value is divisible by 5, replace the value with “Buzz”
 If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
 If the value is not divisible by 3 or 5, simply turn the number into a String.ake a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. 
 ## Approach & Efficiency
-![whiteboard]()
+![whiteboard](./challenge18.png)
 ## API
 Public Classes:
 K_aryNode, K_aryTree
