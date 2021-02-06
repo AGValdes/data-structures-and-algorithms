@@ -1,16 +1,18 @@
+using Implementations.Trees;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Implementations.Trees
+
+namespace DataStructures
 {
   public class BinaryTree<T> where T : IComparable
   {
-    public TreeNode<T> Root { get; set; }
+    public Node<T> Root { get; set; }
 
     public List<T> Values { get; set; }
 
-    public List<T> PreOrder(TreeNode<T> node, List<T> values)
+    public List<T> PreOrder(Node<T> node, List<T> values)
     {
       values.Add(node.Value);
       if (node.Left != null) { PreOrder(node.Left, values); }
@@ -18,7 +20,7 @@ namespace Implementations.Trees
       return values;
     }
 
-    public List<T> InOrder(TreeNode<T> node, List<T> values)
+    public List<T> InOrder(Node<T> node, List<T> values)
     {
       if (node.Left != null) { InOrder(node.Left, values); }
       values.Add(node.Value);
@@ -26,7 +28,7 @@ namespace Implementations.Trees
       return values;
     }
 
-    public List<T> PostOrder(TreeNode<T> node, List<T> values)
+    public List<T> PostOrder(Node<T> node, List<T> values)
     {
 
       if (node.Left != null) { PostOrder(node.Left, values); }
@@ -35,15 +37,37 @@ namespace Implementations.Trees
       return values;
     }
 
-    public T FindMaximumValue(TreeNode<T> node)
+    public  List<T> BreadthFirstTraversal()
     {
-      T largestSoFar = default(T);
+      List<T> values = new List<T>();
+
+      Queue<Node<T>> nodes = new Queue<Node<T>>();
+
+      nodes.Enqueue(Root);
+
+      while(nodes.Peek() != null)
+      {
+
+        Node<Node<T>> nodeNode = nodes.Dequeue();
+        Node<T> node = nodeNode.Value;
+
+        values.Add(node.Value);
+       if(node.Left != null) { nodes.Enqueue(node.Left); }
+       if(node.Right != null) { nodes.Enqueue(node.Right); }
+      }
+      return values;
+
+    }
+
+    public T FindMaximumValue(Node<T> node, T largestSoFar)
+    {
+      
       if (node.Value.CompareTo(largestSoFar) > 0)
       {
         largestSoFar = node.Value;
       }
-      if (node.Left != null) { FindMaximumValue(node.Left); }
-      if (node.Right != null) { FindMaximumValue(node.Right); }
+      if (node.Left != null) { FindMaximumValue(node.Left, largestSoFar); }
+      if (node.Right != null) { FindMaximumValue(node.Right, largestSoFar); }
 
       return largestSoFar;
     }

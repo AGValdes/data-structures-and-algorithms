@@ -22,14 +22,16 @@ namespace DataStructures
       Rear = node;
     }
 
-    public void Dequeue()
+    public Node<T> Dequeue()
     {
       try
       {
+        Node<T> oldFront = Front;
         Node<T> tempNode = Front.Next;
-
+        
       Front = tempNode;
-    
+        return oldFront;
+        
 
       }
       catch (NullReferenceException nre)

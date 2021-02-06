@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using DataStructures;
 using Implementations.Trees;
 using Xunit;
 
@@ -77,5 +78,47 @@ namespace DataStructuresTests
       Assert.Equal(expected, testTree.PostOrder(testTree.Root, input));
     }
 
+    [Fact]
+    public void Test_For_Correct_ORder_Using_Breadth_First_Traversal()
+    {
+      BinaryTree<int> testTree = new BinaryTree<int>();
+      testTree.Root = new Node<int>(1);
+      testTree.Root.Left = new Node<int>(2);
+      testTree.Root.Right = new Node<int>(3);
+      testTree.Root.Left.Left = new Node<int>(4);
+      testTree.Root.Left.Right = new Node<int>(5);
+      testTree.Root.Right.Left = new Node<int>(6);
+      testTree.Root.Right.Right = new Node<int>(7);
+
+      List<int> result = new List<int> { 1, 2, 3, 4, 5, 6, 7 };
+
+      Assert.Equal(result, testTree.BreadthFirstTraversal());
+    }
+
+    [Fact]
+    public void Test_FindMAximumValue_Returns_Largest_Value()
+    {
+      BinarySearchTree<int> testTree = new BinarySearchTree<int>();
+
+      testTree.Add(testTree.Root, 12);
+      testTree.Add(testTree.Root, 8);
+      testTree.Add(testTree.Root, 10);
+      int expected = 12;
+      Assert.Equal(expected, testTree.FindMaximumValue(testTree.Root, 0));
+    }
+
+    [Fact]
+    public void Test_FindMaximumValue_Does_Not_Return_A_Value_That_Isnt_The_Largest()
+    {
+      BinarySearchTree<int> testTree = new BinarySearchTree<int>();
+
+      testTree.Add(testTree.Root, 12);
+      testTree.Add(testTree.Root, 8);
+      testTree.Add(testTree.Root, 10);
+      testTree.Add(testTree.Root, 9);
+      testTree.Add(testTree.Root, 2);
+     
+      Assert.NotEqual(2, testTree.FindMaximumValue(testTree.Root, 0));
+    }
   }
 }

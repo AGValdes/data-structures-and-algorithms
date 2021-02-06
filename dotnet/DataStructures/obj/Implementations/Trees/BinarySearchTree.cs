@@ -1,3 +1,4 @@
+using DataStructures;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -6,9 +7,9 @@ namespace Implementations.Trees
 {
  public class BinarySearchTree<T> : BinaryTree<T> where T : IComparable
   {
-    public void Add(TreeNode<T> node, T value)
+    public void Add(Node<T> node, T value)
     {
-      TreeNode<T> newNode = new TreeNode<T>(value);
+      Node<T> newNode = new Node<T>(value);
 
       if (Root == null)
       {
@@ -29,7 +30,7 @@ namespace Implementations.Trees
 
     public static bool Contains (BinarySearchTree<T> tree, T value)
     {
-      TreeNode<T> node = tree.Root;
+      Node<T> node = tree.Root;
 
       while(node != null)
       {
