@@ -11,6 +11,15 @@ because we cut our search in half everytime it calls itself. Space will be O(1) 
 ## API
 Public Methods: Add(), Contains(), PreOrder(), InOrder(), PostOrder()
 
+# Trees Challange 16
+Write a method that returns the largest value in a tree.
+## Challenge
+Write a method that traverses a binary tree and returns the largest value in the tree.
+## Approach and Efficiency
+The approach I took was recursively calling my findMAximumValue in order to tranverse the tree. This approach has an efficiency of O(n) for Time, since we are visiting every node, and O(h) for space, h being the height of the Binary Tree. 
+## API
+Public Methods:
+FindMaximumValue()
 
 # Trees Challenge 17
 Write a mehtod that traverses a tree using breadth-first traversal.
@@ -18,6 +27,6 @@ Write a mehtod that traverses a tree using breadth-first traversal.
 Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach, and return a list of the values in the tree in the order they were encountered.
 
 ## Approach & Efficiency
-![whiteboard]()
+![whiteboard](https://github.com/AGValdes/data-structures-and-algorithms/blob/main/dotnet/DataStructures/obj/Implementations/Trees/challenge17.png)
 ## API
 Public Methods: BreadthFirstTraversal()
