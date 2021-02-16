@@ -23,6 +23,7 @@
     <ProjectReference Include="..\..\DataStructures\DataStructuresTests\DataStructuresTests.csproj" />
     <ProjectReference Include="..\..\FifoAnimalShelter\FifoAnimalShelter.csproj" />
     <ProjectReference Include="..\..\multi-bracket-validation\multi-bracket-validation.csproj" />
+    <ProjectReference Include="..\..\SortedArrays\SortedArrays.csproj" />
     <ProjectReference Include="..\LinkedLists\LinkedLists.csproj" />
   </ItemGroup>
 
