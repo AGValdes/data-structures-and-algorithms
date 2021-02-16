@@ -1709,6 +1709,16 @@
         "runtime": {
           "bin/placeholder/multi-bracket-validation.dll": {}
         }
+      },
+      "SortedArrays/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SortedArrays.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SortedArrays.dll": {}
+        }
       }
     }
   },
@@ -5697,6 +5707,11 @@
       "type": "project",
       "path": "../../multi-bracket-validation/multi-bracket-validation.csproj",
       "msbuildProject": "../../multi-bracket-validation/multi-bracket-validation.csproj"
+    },
+    "SortedArrays/1.0.0": {
+      "type": "project",
+      "path": "../../SortedArrays/SortedArrays.csproj",
+      "msbuildProject": "../../SortedArrays/SortedArrays.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5705,6 +5720,7 @@
       "FifoAnimalShelter >= 1.0.0",
       "LinkedLists >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
+      "SortedArrays >= 1.0.0",
       "coverlet.collector >= 1.3.0",
       "multi-bracket-validation >= 1.0.0",
       "xunit >= 2.4.1",
@@ -5749,6 +5765,9 @@
             },
             "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\multi-bracket-validation\\multi-bracket-validation.csproj": {
               "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\multi-bracket-validation\\multi-bracket-validation.csproj"
+            },
+            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\SortedArrays\\SortedArrays.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\SortedArrays\\SortedArrays.csproj"
             }
           }
         }
