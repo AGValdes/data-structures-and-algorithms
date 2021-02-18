@@ -15,7 +15,7 @@ Public Methods: InsertionSort()
 Create a blog article that shows the step-by-step algorithm for a Quick Sort
 
 ## Approach and Efficiency
-![Image of Step-By-Step Algorithm]()
+![Image of Step-By-Step Algorithm](./QuickSort.jpg)
 
 ## API
 Public Methods: QuickSort(), Partition(), Swap()
