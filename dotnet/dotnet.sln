@@ -12,10 +12,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedLists", "CodeChallenges\LinkedLists\LinkedLists.csproj", "{65BE838C-867F-4426-A689-343F4107C105}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{26878B34-2744-4144-8039-E4B2910993E2}"
-	ProjectSection(SolutionItems) = preProject
-		DataStructures\obj\Implementations\HashMap.cs = DataStructures\obj\Implementations\HashMap.cs
-		DataStructures\obj\Implementations\HashMapREADME.md = DataStructures\obj\Implementations\HashMapREADME.md
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeChallenges", "CodeChallenges", "{8DF81E38-D9C8-46C0-809F-2C4209BB6429}"
 EndProject
