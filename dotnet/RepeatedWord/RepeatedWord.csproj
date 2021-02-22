@@ -6,9 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="HashTable.cs">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Compile>
+    <ProjectReference Include="..\DataStructures\obj\Implementations\Implementations.csproj" />
   </ItemGroup>
 
 </Project>
