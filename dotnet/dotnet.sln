@@ -12,6 +12,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedLists", "CodeChallenges\LinkedLists\LinkedLists.csproj", "{65BE838C-867F-4426-A689-343F4107C105}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{26878B34-2744-4144-8039-E4B2910993E2}"
+	ProjectSection(SolutionItems) = preProject
+		DataStructures\obj\Implementations\HashMap.cs = DataStructures\obj\Implementations\HashMap.cs
+		DataStructures\obj\Implementations\HashMapREADME.md = DataStructures\obj\Implementations\HashMapREADME.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeChallenges", "CodeChallenges", "{8DF81E38-D9C8-46C0-809F-2C4209BB6429}"
 EndProject
@@ -25,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "multi-bracket-validation", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzTree", "FizzBuzzTree\FizzBuzzTree.csproj", "{A34C07B8-1525-4001-817E-7485D68BEAB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedArrays", "SortedArrays\SortedArrays.csproj", "{CE93979C-CA9B-4907-869B-309A019B00CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedArrays", "SortedArrays\SortedArrays.csproj", "{CE93979C-CA9B-4907-869B-309A019B00CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
