@@ -217,3 +217,16 @@ C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges
 C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\SortedArrays.exe
 C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\SortedArrays.dll
 C:\Users\valde\Source\Repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\SortedArrays.pdb
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\HashTable.cs
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\FizzBuzzTree.exe
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\LL-zip.exe
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\QueueWithStacks.exe
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\RepeatedWord.exe
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\FizzBuzzTree.dll
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\LL-zip.dll
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\QueueWithStacks.dll
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\RepeatedWord.dll
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\FizzBuzzTree.pdb
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\LL-zip.pdb
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\QueueWithStacks.pdb
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\RepeatedWord.pdb

@@ -34,11 +34,26 @@
               "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj": {
                 "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj"
               },
+              "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {
+                "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj"
+              },
               "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FifoAnimalShelter\\FifoAnimalShelter.csproj": {
                 "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FifoAnimalShelter\\FifoAnimalShelter.csproj"
               },
+              "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FizzBuzzTree\\FizzBuzzTree.csproj": {
+                "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FizzBuzzTree\\FizzBuzzTree.csproj"
+              },
+              "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj": {
+                "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj"
+              },
               "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\multi-bracket-validation\\multi-bracket-validation.csproj": {
                 "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\multi-bracket-validation\\multi-bracket-validation.csproj"
+              },
+              "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\QueueWithStacks\\QueueWithStacks.csproj": {
+                "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\QueueWithStacks\\QueueWithStacks.csproj"
+              },
+              "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\RepeatedWord\\RepeatedWord.csproj": {
+                "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\RepeatedWord\\RepeatedWord.csproj"
               },
               "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\SortedArrays\\SortedArrays.csproj": {
                 "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\SortedArrays\\SortedArrays.csproj"
@@ -342,6 +357,118 @@
         }
       }
     },
+    "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FizzBuzzTree\\FizzBuzzTree.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FizzBuzzTree\\FizzBuzzTree.csproj",
+        "projectName": "FizzBuzzTree",
+        "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FizzBuzzTree\\FizzBuzzTree.csproj",
+        "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FizzBuzzTree\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {
+                "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj",
+        "projectName": "LL-zip",
+        "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj",
+        "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\multi-bracket-validation\\multi-bracket-validation.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -350,6 +477,118 @@
         "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\multi-bracket-validation\\multi-bracket-validation.csproj",
         "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\multi-bracket-validation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {
+                "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\QueueWithStacks\\QueueWithStacks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\QueueWithStacks\\QueueWithStacks.csproj",
+        "projectName": "QueueWithStacks",
+        "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\QueueWithStacks\\QueueWithStacks.csproj",
+        "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\QueueWithStacks\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\RepeatedWord\\RepeatedWord.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\RepeatedWord\\RepeatedWord.csproj",
+        "projectName": "RepeatedWord",
+        "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\RepeatedWord\\RepeatedWord.csproj",
+        "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\RepeatedWord\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",

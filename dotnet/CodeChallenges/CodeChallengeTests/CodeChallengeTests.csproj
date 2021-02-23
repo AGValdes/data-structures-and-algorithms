@@ -21,8 +21,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\DataStructures\DataStructuresTests\DataStructuresTests.csproj" />
+    <ProjectReference Include="..\..\DataStructures\obj\Implementations\Implementations.csproj" />
     <ProjectReference Include="..\..\FifoAnimalShelter\FifoAnimalShelter.csproj" />
+    <ProjectReference Include="..\..\FizzBuzzTree\FizzBuzzTree.csproj" />
+    <ProjectReference Include="..\..\LL-zip\LL-zip.csproj" />
     <ProjectReference Include="..\..\multi-bracket-validation\multi-bracket-validation.csproj" />
+    <ProjectReference Include="..\..\QueueWithStacks\QueueWithStacks.csproj" />
+    <ProjectReference Include="..\..\RepeatedWord\RepeatedWord.csproj" />
     <ProjectReference Include="..\..\SortedArrays\SortedArrays.csproj" />
     <ProjectReference Include="..\LinkedLists\LinkedLists.csproj" />
   </ItemGroup>

@@ -198,3 +198,4 @@ C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\DataStructures
 C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\DataStructures\DataStructuresTests\bin\Debug\netcoreapp3.1\Implementations.pdb
 C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\DataStructures\DataStructuresTests\obj\Debug\netcoreapp3.1\DataStructuresTests.csproj.CopyComplete
 C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\DataStructures\DataStructuresTests\obj\Debug\netcoreapp3.1\DataStructuresTests.genruntimeconfig.cache
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\DataStructures\DataStructuresTests\bin\Debug\netcoreapp3.1\HashTable.cs

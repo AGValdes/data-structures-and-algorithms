@@ -1674,6 +1674,19 @@
           "bin/placeholder/FifoAnimalShelter.dll": {}
         }
       },
+      "FizzBuzzTree/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Implementations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FizzBuzzTree.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FizzBuzzTree.dll": {}
+        }
+      },
       "Implementations/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1697,6 +1710,16 @@
           "bin/placeholder/LinkedLists.dll": {}
         }
       },
+      "LL-zip/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LL-zip.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LL-zip.dll": {}
+        }
+      },
       "multi-bracket-validation/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1708,6 +1731,29 @@
         },
         "runtime": {
           "bin/placeholder/multi-bracket-validation.dll": {}
+        }
+      },
+      "QueueWithStacks/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/QueueWithStacks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QueueWithStacks.dll": {}
+        }
+      },
+      "RepeatedWord/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Implementations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RepeatedWord.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RepeatedWord.dll": {}
         }
       },
       "SortedArrays/1.0.0": {
@@ -5693,6 +5739,11 @@
       "path": "../../FifoAnimalShelter/FifoAnimalShelter.csproj",
       "msbuildProject": "../../FifoAnimalShelter/FifoAnimalShelter.csproj"
     },
+    "FizzBuzzTree/1.0.0": {
+      "type": "project",
+      "path": "../../FizzBuzzTree/FizzBuzzTree.csproj",
+      "msbuildProject": "../../FizzBuzzTree/FizzBuzzTree.csproj"
+    },
     "Implementations/1.0.0": {
       "type": "project",
       "path": "../../DataStructures/obj/Implementations/Implementations.csproj",
@@ -5703,10 +5754,25 @@
       "path": "../LinkedLists/LinkedLists.csproj",
       "msbuildProject": "../LinkedLists/LinkedLists.csproj"
     },
+    "LL-zip/1.0.0": {
+      "type": "project",
+      "path": "../../LL-zip/LL-zip.csproj",
+      "msbuildProject": "../../LL-zip/LL-zip.csproj"
+    },
     "multi-bracket-validation/1.0.0": {
       "type": "project",
       "path": "../../multi-bracket-validation/multi-bracket-validation.csproj",
       "msbuildProject": "../../multi-bracket-validation/multi-bracket-validation.csproj"
+    },
+    "QueueWithStacks/1.0.0": {
+      "type": "project",
+      "path": "../../QueueWithStacks/QueueWithStacks.csproj",
+      "msbuildProject": "../../QueueWithStacks/QueueWithStacks.csproj"
+    },
+    "RepeatedWord/1.0.0": {
+      "type": "project",
+      "path": "../../RepeatedWord/RepeatedWord.csproj",
+      "msbuildProject": "../../RepeatedWord/RepeatedWord.csproj"
     },
     "SortedArrays/1.0.0": {
       "type": "project",
@@ -5718,8 +5784,13 @@
     ".NETCoreApp,Version=v3.1": [
       "DataStructuresTests >= 1.0.0",
       "FifoAnimalShelter >= 1.0.0",
+      "FizzBuzzTree >= 1.0.0",
+      "Implementations >= 1.0.0",
+      "LL-zip >= 1.0.0",
       "LinkedLists >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
+      "QueueWithStacks >= 1.0.0",
+      "RepeatedWord >= 1.0.0",
       "SortedArrays >= 1.0.0",
       "coverlet.collector >= 1.3.0",
       "multi-bracket-validation >= 1.0.0",
@@ -5760,11 +5831,26 @@
             "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj": {
               "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj"
             },
+            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj"
+            },
             "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FifoAnimalShelter\\FifoAnimalShelter.csproj": {
               "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FifoAnimalShelter\\FifoAnimalShelter.csproj"
             },
+            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FizzBuzzTree\\FizzBuzzTree.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FizzBuzzTree\\FizzBuzzTree.csproj"
+            },
+            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj"
+            },
             "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\multi-bracket-validation\\multi-bracket-validation.csproj": {
               "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\multi-bracket-validation\\multi-bracket-validation.csproj"
+            },
+            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\QueueWithStacks\\QueueWithStacks.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\QueueWithStacks\\QueueWithStacks.csproj"
+            },
+            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\RepeatedWord\\RepeatedWord.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\RepeatedWord\\RepeatedWord.csproj"
             },
             "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\SortedArrays\\SortedArrays.csproj": {
               "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\SortedArrays\\SortedArrays.csproj"
