@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzTree", "FizzBuzzTre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedArrays", "SortedArrays\SortedArrays.csproj", "{CE93979C-CA9B-4907-869B-309A019B00CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatedWord", "RepeatedWord\RepeatedWord.csproj", "{49C0BAD0-2E7E-4B32-A2F2-315DC7526CB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepeatedWord", "RepeatedWord\RepeatedWord.csproj", "{49C0BAD0-2E7E-4B32-A2F2-315DC7526CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeIntersection", "TreeIntersection\TreeIntersection.csproj", "{773B6780-D0C7-4990-BA1D-826C62D007C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +81,10 @@ Global
 		{49C0BAD0-2E7E-4B32-A2F2-315DC7526CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49C0BAD0-2E7E-4B32-A2F2-315DC7526CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49C0BAD0-2E7E-4B32-A2F2-315DC7526CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773B6780-D0C7-4990-BA1D-826C62D007C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773B6780-D0C7-4990-BA1D-826C62D007C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773B6780-D0C7-4990-BA1D-826C62D007C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773B6780-D0C7-4990-BA1D-826C62D007C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{A34C07B8-1525-4001-817E-7485D68BEAB5} = {8DF81E38-D9C8-46C0-809F-2C4209BB6429}
 		{CE93979C-CA9B-4907-869B-309A019B00CF} = {8DF81E38-D9C8-46C0-809F-2C4209BB6429}
 		{49C0BAD0-2E7E-4B32-A2F2-315DC7526CB8} = {8DF81E38-D9C8-46C0-809F-2C4209BB6429}
+		{773B6780-D0C7-4990-BA1D-826C62D007C4} = {8DF81E38-D9C8-46C0-809F-2C4209BB6429}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23A746C8-A424-4250-BE7A-9C3F81AA80BE}
