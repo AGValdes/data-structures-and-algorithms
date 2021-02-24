@@ -230,3 +230,6 @@ C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges
 C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\LL-zip.pdb
 C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\QueueWithStacks.pdb
 C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\RepeatedWord.pdb
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\TreeIntersection.exe
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\TreeIntersection.dll
+C:\Users\valde\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\CodeChallengeTests\bin\Debug\netcoreapp3.1\TreeIntersection.pdb

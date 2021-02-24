@@ -29,6 +29,7 @@
     <ProjectReference Include="..\..\QueueWithStacks\QueueWithStacks.csproj" />
     <ProjectReference Include="..\..\RepeatedWord\RepeatedWord.csproj" />
     <ProjectReference Include="..\..\SortedArrays\SortedArrays.csproj" />
+    <ProjectReference Include="..\..\TreeIntersection\TreeIntersection.csproj" />
     <ProjectReference Include="..\LinkedLists\LinkedLists.csproj" />
   </ItemGroup>
 
