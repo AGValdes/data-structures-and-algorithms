@@ -12,6 +12,24 @@ namespace DataStructures
 
     public List<T> Values { get; set; }
 
+
+    public void Add(Node<T> node, T value)
+    {
+      Node<T> newNode = new Node<T>(value);
+
+      if (Root == null)
+      {
+        Root = newNode;
+        return;
+      }
+     
+        if (node.Left == null) { node.Left = newNode; }
+        else { Add(node.Left, value); }
+  
+        if (node.Right == null) { node.Right = newNode; }
+        else { Add(node.Right, value); }
+      
+    }
     public List<T> PreOrder(Node<T> node, List<T> values)
     {
       values.Add(node.Value);

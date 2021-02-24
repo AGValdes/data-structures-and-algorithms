@@ -5,14 +5,14 @@ using System.Collections.Generic;
 
 namespace TreeIntersection
 {
-	class Program
+	public class Program
 	{
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Hello World!");
 		}
 
-    public List<int> TreeIntersection(BinaryTree<int> tree1, BinaryTree<int> tree2)
+    public static List<int> TreeIntersection(BinaryTree<int> tree1, BinaryTree<int> tree2)
     {
       HashTable table = new HashTable(50);
       List<int> listTree1 = new List<int>();

@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataStructures\obj\Implementations\Implementations.csproj" />
+    <ProjectReference Include="..\RepeatedWord\RepeatedWord.csproj" />
+  </ItemGroup>
+
 </Project>
