@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-using DataStructures;
+using DataStructures2;
 
 namespace DataStructureTests
 {

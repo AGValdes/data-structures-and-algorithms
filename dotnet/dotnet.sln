@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implementations", "DataStructures\obj\Implementations\Implementations.csproj", "{C64C68CD-3E85-49B8-B804-23798F26DE39}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructuresTests", "DataStructures\DataStructuresTests\DataStructuresTests.csproj", "{2D0E0925-CA5A-44D4-BD93-021F0A62B0A3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallengeTests", "CodeChallenges\CodeChallengeTests\CodeChallengeTests.csproj", "{30BFDEC3-221B-4565-8F7F-3716070AB5CA}"
@@ -31,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepeatedWord", "RepeatedWor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeIntersection", "TreeIntersection\TreeIntersection.csproj", "{773B6780-D0C7-4990-BA1D-826C62D007C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftJoin", "LeftJoin\LeftJoin.csproj", "{1F5195FF-7382-41E5-A5D5-DE266E475752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeftJoin", "LeftJoin\LeftJoin.csproj", "{1F5195FF-7382-41E5-A5D5-DE266E475752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures2", "DataStructures2\DataStructures2.csproj", "{041191F4-7610-43B8-A482-C674227A37BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +39,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C64C68CD-3E85-49B8-B804-23798F26DE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C64C68CD-3E85-49B8-B804-23798F26DE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C64C68CD-3E85-49B8-B804-23798F26DE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C64C68CD-3E85-49B8-B804-23798F26DE39}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2D0E0925-CA5A-44D4-BD93-021F0A62B0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2D0E0925-CA5A-44D4-BD93-021F0A62B0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D0E0925-CA5A-44D4-BD93-021F0A62B0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -91,12 +87,15 @@ Global
 		{1F5195FF-7382-41E5-A5D5-DE266E475752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F5195FF-7382-41E5-A5D5-DE266E475752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F5195FF-7382-41E5-A5D5-DE266E475752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041191F4-7610-43B8-A482-C674227A37BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041191F4-7610-43B8-A482-C674227A37BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041191F4-7610-43B8-A482-C674227A37BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041191F4-7610-43B8-A482-C674227A37BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C64C68CD-3E85-49B8-B804-23798F26DE39} = {26878B34-2744-4144-8039-E4B2910993E2}
 		{2D0E0925-CA5A-44D4-BD93-021F0A62B0A3} = {26878B34-2744-4144-8039-E4B2910993E2}
 		{30BFDEC3-221B-4565-8F7F-3716070AB5CA} = {8DF81E38-D9C8-46C0-809F-2C4209BB6429}
 		{65BE838C-867F-4426-A689-343F4107C105} = {8DF81E38-D9C8-46C0-809F-2C4209BB6429}

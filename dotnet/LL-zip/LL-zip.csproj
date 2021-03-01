@@ -6,4 +6,8 @@
     <RootNamespace>LL_zip</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataStructures2\DataStructures2.csproj" />
+  </ItemGroup>
+
 </Project>

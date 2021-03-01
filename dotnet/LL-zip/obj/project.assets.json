@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "DataStructures2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DataStructures2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataStructures2.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DataStructures2/1.0.0": {
+      "type": "project",
+      "path": "../DataStructures2/DataStructures2.csproj",
+      "msbuildProject": "../DataStructures2/DataStructures2.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "DataStructures2 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\valde\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj",
+      "projectUniqueName": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj",
       "projectName": "LL-zip",
-      "projectPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj",
+      "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\LL-zip.csproj",
       "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valde\\Source\\Repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\obj\\",
+      "outputPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\LL-zip\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

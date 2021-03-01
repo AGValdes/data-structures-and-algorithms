@@ -1649,24 +1649,22 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "DataStructuresTests/1.0.0": {
+      "DataStructures2/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Implementations": "1.0.0",
-          "Microsoft.NET.Test.Sdk": "16.7.1",
-          "xunit": "2.4.1"
-        },
         "compile": {
-          "bin/placeholder/DataStructuresTests.dll": {}
+          "bin/placeholder/DataStructures2.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DataStructuresTests.dll": {}
+          "bin/placeholder/DataStructures2.dll": {}
         }
       },
       "FifoAnimalShelter/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataStructures2": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/FifoAnimalShelter.dll": {}
         },
@@ -1678,30 +1676,20 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Implementations": "1.0.0"
+          "DataStructures2": "1.0.0"
         },
         "compile": {
           "bin/placeholder/FizzBuzzTree.dll": {}
         },
         "runtime": {
           "bin/placeholder/FizzBuzzTree.dll": {}
-        }
-      },
-      "Implementations/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Implementations.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Implementations.dll": {}
         }
       },
       "LinkedLists/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Implementations": "1.0.0"
+          "DataStructures2": "1.0.0"
         },
         "compile": {
           "bin/placeholder/LinkedLists.dll": {}
@@ -1713,6 +1701,9 @@
       "LL-zip/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataStructures2": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/LL-zip.dll": {}
         },
@@ -1724,7 +1715,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Implementations": "1.0.0"
+          "DataStructures2": "1.0.0"
         },
         "compile": {
           "bin/placeholder/multi-bracket-validation.dll": {}
@@ -1736,6 +1727,9 @@
       "QueueWithStacks/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataStructures2": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/QueueWithStacks.dll": {}
         },
@@ -1747,7 +1741,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Implementations": "1.0.0"
+          "DataStructures2": "1.0.0"
         },
         "compile": {
           "bin/placeholder/RepeatedWord.dll": {}
@@ -1759,6 +1753,9 @@
       "SortedArrays/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataStructures2": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SortedArrays.dll": {}
         },
@@ -1770,7 +1767,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Implementations": "1.0.0",
+          "DataStructures2": "1.0.0",
           "RepeatedWord": "1.0.0"
         },
         "compile": {
@@ -5743,10 +5740,10 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "DataStructuresTests/1.0.0": {
+    "DataStructures2/1.0.0": {
       "type": "project",
-      "path": "../../DataStructures/DataStructuresTests/DataStructuresTests.csproj",
-      "msbuildProject": "../../DataStructures/DataStructuresTests/DataStructuresTests.csproj"
+      "path": "../../DataStructures2/DataStructures2.csproj",
+      "msbuildProject": "../../DataStructures2/DataStructures2.csproj"
     },
     "FifoAnimalShelter/1.0.0": {
       "type": "project",
@@ -5757,11 +5754,6 @@
       "type": "project",
       "path": "../../FizzBuzzTree/FizzBuzzTree.csproj",
       "msbuildProject": "../../FizzBuzzTree/FizzBuzzTree.csproj"
-    },
-    "Implementations/1.0.0": {
-      "type": "project",
-      "path": "../../DataStructures/obj/Implementations/Implementations.csproj",
-      "msbuildProject": "../../DataStructures/obj/Implementations/Implementations.csproj"
     },
     "LinkedLists/1.0.0": {
       "type": "project",
@@ -5801,10 +5793,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DataStructuresTests >= 1.0.0",
+      "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2Tests\\DataStructures2Tests.csproj",
+      "DataStructures2 >= 1.0.0",
       "FifoAnimalShelter >= 1.0.0",
       "FizzBuzzTree >= 1.0.0",
-      "Implementations >= 1.0.0",
       "LL-zip >= 1.0.0",
       "LinkedLists >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
@@ -5848,11 +5840,11 @@
             "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\LinkedLists\\LinkedLists.csproj": {
               "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\LinkedLists\\LinkedLists.csproj"
             },
-            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj": {
-              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\DataStructuresTests\\DataStructuresTests.csproj"
+            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2.csproj"
             },
-            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {
-              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj"
+            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2Tests\\DataStructures2Tests.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2Tests\\DataStructures2Tests.csproj"
             },
             "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FifoAnimalShelter\\FifoAnimalShelter.csproj": {
               "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\FifoAnimalShelter\\FifoAnimalShelter.csproj"
@@ -5930,5 +5922,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2Tests\\DataStructures2Tests.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2Tests\\DataStructures2Tests.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

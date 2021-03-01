@@ -1,7 +1,7 @@
 
 using System;
 
-using DataStructures;
+using DataStructures2;
 
 namespace LinkedLists
 {
