@@ -1,21 +1,20 @@
-using DataStructures2;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace RepeatedWord
-{
-  public class HashTable
-  {
-    public DataStructures2.LinkedList<KeyValuePair<string, string>>[] Map { get; set; }
 
-    public HashTable(int size)
+namespace DataStructures2
+{
+  public class HashMap
+  {
+    public LinkedList<KeyValuePair<string, string>>[] Map { get; set; }
+
+    public HashMap(int size)
     {
-      Map = new DataStructures2.LinkedList<KeyValuePair<string, string>>[size];
-      Map = new DataStructures2.LinkedList<KeyValuePair<string, string>>[size];
+      Map = new LinkedList<KeyValuePair<string, string>>[size];
     }
 
-    public static int Hash(string key, DataStructures2.LinkedList<KeyValuePair<string, string>>[] Map)
+    public static int Hash(string key, LinkedList<KeyValuePair<string, string>>[] Map)
     {
       int hashValue = 0;
 
@@ -34,7 +33,7 @@ namespace RepeatedWord
       int hashKey = Hash(key, this.Map);
       if (Map[hashKey] == null)
       {
-        Map[hashKey] = new DataStructures2.LinkedList<KeyValuePair<string, string>>();
+        Map[hashKey] = new LinkedList<KeyValuePair<string, string>>();
       }
 
       KeyValuePair<string, string> entry = new KeyValuePair<string, string>(key, value);

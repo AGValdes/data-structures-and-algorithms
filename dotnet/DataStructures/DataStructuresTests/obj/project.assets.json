@@ -1649,14 +1649,14 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "Implementations/1.0.0": {
+      "DataStructures2/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/Implementations.dll": {}
+          "bin/placeholder/DataStructures2.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Implementations.dll": {}
+          "bin/placeholder/DataStructures2.dll": {}
         }
       }
     }
@@ -5622,15 +5622,15 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Implementations/1.0.0": {
+    "DataStructures2/1.0.0": {
       "type": "project",
-      "path": "../obj/Implementations/Implementations.csproj",
-      "msbuildProject": "../obj/Implementations/Implementations.csproj"
+      "path": "../../DataStructures2/DataStructures2.csproj",
+      "msbuildProject": "../../DataStructures2/DataStructures2.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Implementations >= 1.0.0",
+      "DataStructures2 >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "coverlet.collector >= 1.3.0",
       "xunit >= 2.4.1",
@@ -5664,8 +5664,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj": {
-              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\obj\\Implementations\\Implementations.csproj"
+            "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2.csproj": {
+              "projectPath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2.csproj"
             }
           }
         }

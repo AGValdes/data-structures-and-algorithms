@@ -1,9 +1,10 @@
 using System;
-using DataStructures;
+using DataStructures2;
 using System.Text;
 using Xunit;
 
-namespace DataStructuresTests
+
+namespace DataStructures2Tests
 {
   public class QueuesTests
   {

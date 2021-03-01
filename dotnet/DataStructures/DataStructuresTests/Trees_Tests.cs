@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using DataStructures;
+using DataStructures2;
 using Implementations.Trees;
 using Xunit;
 
-namespace DataStructuresTests
+namespace DataStructures2Tests
 {
   public class Trees_Tests
   {

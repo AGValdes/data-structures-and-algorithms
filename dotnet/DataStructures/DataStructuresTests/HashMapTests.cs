@@ -1,11 +1,11 @@
-using DataStructures;
+using DataStructures2;
 using Implementations;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace DataStructuresTests
+namespace DataStructures2Tests
 {
   public class HashMapTests
   {
@@ -66,7 +66,7 @@ namespace DataStructuresTests
 
       testMap.Add(testKey2, testVal2);
 
-      DataStructures.LinkedList<KeyValuePair<string, string>> expectedList = new DataStructures.LinkedList<KeyValuePair<string, string>>();
+      DataStructures2.LinkedList<KeyValuePair<string, string>> expectedList = new DataStructures2.LinkedList<KeyValuePair<string, string>>();
       expectedList.Insert(testKVP1);
       expectedList.Insert(testKVP2);
 

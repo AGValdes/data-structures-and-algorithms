@@ -20,8 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DataStructures\DataStructuresTests\DataStructuresTests.csproj" />
-    <ProjectReference Include="..\..\DataStructures\obj\Implementations\Implementations.csproj" />
+    <ProjectReference Include="..\..\DataStructures2\DataStructures2.csproj" />
+    <ProjectReference Include="..\..\DataStructures2\DataStructures2Tests\DataStructures2Tests.csproj" />
     <ProjectReference Include="..\..\FifoAnimalShelter\FifoAnimalShelter.csproj" />
     <ProjectReference Include="..\..\FizzBuzzTree\FizzBuzzTree.csproj" />
     <ProjectReference Include="..\..\LL-zip\LL-zip.csproj" />

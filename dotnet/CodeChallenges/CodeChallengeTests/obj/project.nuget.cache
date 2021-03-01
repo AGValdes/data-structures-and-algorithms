@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "9xOXx0VC8BzZVP0+jWdPGyQ4oQ8fHJbvFSH3DUhqdgyk3xD5jEUHogTeIAFT1xlVIsBHE+sqC0qRvfbRXwsefw==",
-  "success": true,
+  "dgSpecHash": "yLCqYO/FBrA4OWeIiG2bJNYE5FHADvvqQqpEVmTXIF5i7XBHE/M0Gh4hG0IWV+Lo+RFdHEhi6mv7pSkcJXy21A==",
+  "success": false,
   "projectFilePath": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\CodeChallenges\\CodeChallengeTests\\CodeChallengeTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valde\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
@@ -96,5 +96,15 @@
     "C:\\Users\\valde\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\valde\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2Tests\\DataStructures2Tests.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\valde\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures2\\DataStructures2Tests\\DataStructures2Tests.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
