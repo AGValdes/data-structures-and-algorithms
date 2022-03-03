@@ -1,17 +1,12 @@
 # Data Structures and Algorithms
 
-## Create a copy of this repository
+Visit the projects and tests in the dotnet directory for my most recent code challenges!
 
-1. Create a new repository in your GitHub account called `data-structures-and-algorithms`
-1. Clone the empty repository to your machine
-1. Choose the "Download" option under "Clone or Download" for this repository
-1. Copy that .zip file inside of the local `data-structures-and-algorithms` repo created in step 2
-1. Unzip the file there
-1. Remove the .zip file
-1. Run the command `npm install` from the repository root directory
-1. Do an `ACP` of the `data-structures-and-algorithms` repository
 
-## Repository Quick Tour and Usage
+
+------------------------------------------------------------------------------
+
+
 
 ### 301 Code Challenges
 
@@ -32,34 +27,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
     - Your implementation and tests for the code challenge
     - Perform your work in accordance with your 401 language's instructions
 
-The final structure should resemble this:
-
-```bash
-  data-structures-and-algorithms
-  |
-  ├── code-challenges
-  │  └── challenge-01.test.js
-  │  └── challenge-02.test.js
-  │  └── ...
-  |
-  ├── [language]
-  │   └── [data-structure-name]
-  │       └── challenges
-  │   └── [data-structure-name]
-  │       └── challenges
-  │   └── [data-structure-name]
-  │       └── challenges
-  │   └── ...
-  |
-  ├── node_modules
-  |
-  ├── .github
-  │   └── workflows
-  │       └── javascript-tests.yml
-  │
-  ├── .eslintrc.json
-  ├── .gitignore
-  ├── package-lock.json
-  ├── package.json
-  └── README.md
-```
+Th
