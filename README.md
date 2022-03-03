@@ -27,4 +27,3 @@ Each day, you'll add one new file to this folder to do your work for the day's a
     - Your implementation and tests for the code challenge
     - Perform your work in accordance with your 401 language's instructions
 
-Th
