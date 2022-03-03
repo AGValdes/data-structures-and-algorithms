@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-Visit the projects and tests in the dotnet directory for my most recent code challenges!
+Visit the projects in the 'dotnet' directory for my most recent code challenges!
 
 
 
